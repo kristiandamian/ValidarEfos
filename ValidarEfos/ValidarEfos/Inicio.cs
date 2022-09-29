@@ -77,7 +77,7 @@ namespace ValidarEfos
                         State.GlobalState.folderXml = folderPath;
                         State.GlobalState.Xmls = GetXmls(folderPath);
                         
-                        xmlFolderLabel.Text = folderPath;
+                        xmlFolderLabel.Text = $"{folderPath} -> hay {State.GlobalState.Xmls} archivos XML";
                     }
                     catch (SecurityException ex)
                     {
