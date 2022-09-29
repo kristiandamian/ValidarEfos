@@ -1,0 +1,13 @@
+C:\Users\kristian.damian\Projects\ValidarEfos\ValidarEfos\Core\Write\bin\Release\netstandard2.0\Write.deps.json
+C:\Users\kristian.damian\Projects\ValidarEfos\ValidarEfos\Core\Write\bin\Release\netstandard2.0\Write.dll
+C:\Users\kristian.damian\Projects\ValidarEfos\ValidarEfos\Core\Write\bin\Release\netstandard2.0\Write.pdb
+C:\Users\kristian.damian\Projects\ValidarEfos\ValidarEfos\Core\Write\bin\Release\netstandard2.0\Models.dll
+C:\Users\kristian.damian\Projects\ValidarEfos\ValidarEfos\Core\Write\bin\Release\netstandard2.0\Models.pdb
+C:\Users\kristian.damian\Projects\ValidarEfos\ValidarEfos\Core\Write\obj\Release\netstandard2.0\Write.csproj.AssemblyReference.cache
+C:\Users\kristian.damian\Projects\ValidarEfos\ValidarEfos\Core\Write\obj\Release\netstandard2.0\Write.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kristian.damian\Projects\ValidarEfos\ValidarEfos\Core\Write\obj\Release\netstandard2.0\Write.AssemblyInfoInputs.cache
+C:\Users\kristian.damian\Projects\ValidarEfos\ValidarEfos\Core\Write\obj\Release\netstandard2.0\Write.AssemblyInfo.cs
+C:\Users\kristian.damian\Projects\ValidarEfos\ValidarEfos\Core\Write\obj\Release\netstandard2.0\Write.csproj.CoreCompileInputs.cache
+C:\Users\kristian.damian\Projects\ValidarEfos\ValidarEfos\Core\Write\obj\Release\netstandard2.0\Write.csproj.CopyComplete
+C:\Users\kristian.damian\Projects\ValidarEfos\ValidarEfos\Core\Write\obj\Release\netstandard2.0\Write.dll
+C:\Users\kristian.damian\Projects\ValidarEfos\ValidarEfos\Core\Write\obj\Release\netstandard2.0\Write.pdb

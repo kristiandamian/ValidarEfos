@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Security;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace ValidarEfos
 {
@@ -108,8 +109,13 @@ namespace ValidarEfos
             if(csvSelected && xmlSelected)
             { 
                 button1.Enabled = false;
+                InicioProgressBar();
+
                 Validacion.Iniciar();
 
+                Validacion.XmlValidado += Validacion_XmlValidado;
+
+                OcultoProgressBar();
                 if(State.GlobalState.FacturaEnEfos.Count == 0)
                     MessageBox.Show("No se encontraron facturas en los Efos");
                 else
@@ -126,6 +132,20 @@ namespace ValidarEfos
                 MessageBox.Show("Selecciona el archivo de los Efos y la carpeta donde estan los XML");
 
 
+        }
+
+        private void Validacion_XmlValidado(int factura)
+        {
+            progressBar1.Value = factura;
+        }
+        void OcultoProgressBar() => progressBar1.Visible = false;
+
+        void InicioProgressBar()
+        {
+            progressBar1.Visible = true;
+            progressBar1.Maximum = State.GlobalState.Xmls.Count;
+            progressBar1.Step = 1;
+            progressBar1.Value = 0;
         }
     }
 }

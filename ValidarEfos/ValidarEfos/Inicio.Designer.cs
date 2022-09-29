@@ -37,6 +37,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.openEfoFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.openXmlFolderDialog = new System.Windows.Forms.OpenFileDialog();
+            this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.SuspendLayout();
             // 
             // label1
@@ -121,11 +122,20 @@
             // 
             this.openXmlFolderDialog.FileName = "openFileDialog1";
             // 
+            // progressBar1
+            // 
+            this.progressBar1.Location = new System.Drawing.Point(12, 243);
+            this.progressBar1.Name = "progressBar1";
+            this.progressBar1.Size = new System.Drawing.Size(776, 23);
+            this.progressBar1.TabIndex = 7;
+            this.progressBar1.Visible = false;
+            // 
             // Inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 345);
+            this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.xmlFolderLabel);
             this.Controls.Add(this.efoFile);
@@ -151,6 +161,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.OpenFileDialog openEfoFileDialog;
         private System.Windows.Forms.OpenFileDialog openXmlFolderDialog;
+        private System.Windows.Forms.ProgressBar progressBar1;
     }
 }
 
