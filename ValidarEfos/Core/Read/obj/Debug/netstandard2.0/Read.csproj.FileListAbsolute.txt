@@ -1,0 +1,13 @@
+C:\Users\kristian.damian\Projects\ValidarEfos\ValidarEfos\Core\Read\bin\Debug\netstandard2.0\Read.deps.json
+C:\Users\kristian.damian\Projects\ValidarEfos\ValidarEfos\Core\Read\bin\Debug\netstandard2.0\Read.dll
+C:\Users\kristian.damian\Projects\ValidarEfos\ValidarEfos\Core\Read\bin\Debug\netstandard2.0\Read.pdb
+C:\Users\kristian.damian\Projects\ValidarEfos\ValidarEfos\Core\Read\bin\Debug\netstandard2.0\Models.dll
+C:\Users\kristian.damian\Projects\ValidarEfos\ValidarEfos\Core\Read\bin\Debug\netstandard2.0\Models.pdb
+C:\Users\kristian.damian\Projects\ValidarEfos\ValidarEfos\Core\Read\obj\Debug\netstandard2.0\Read.csproj.AssemblyReference.cache
+C:\Users\kristian.damian\Projects\ValidarEfos\ValidarEfos\Core\Read\obj\Debug\netstandard2.0\Read.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kristian.damian\Projects\ValidarEfos\ValidarEfos\Core\Read\obj\Debug\netstandard2.0\Read.AssemblyInfoInputs.cache
+C:\Users\kristian.damian\Projects\ValidarEfos\ValidarEfos\Core\Read\obj\Debug\netstandard2.0\Read.AssemblyInfo.cs
+C:\Users\kristian.damian\Projects\ValidarEfos\ValidarEfos\Core\Read\obj\Debug\netstandard2.0\Read.csproj.CoreCompileInputs.cache
+C:\Users\kristian.damian\Projects\ValidarEfos\ValidarEfos\Core\Read\obj\Debug\netstandard2.0\Read.csproj.CopyComplete
+C:\Users\kristian.damian\Projects\ValidarEfos\ValidarEfos\Core\Read\obj\Debug\netstandard2.0\Read.dll
+C:\Users\kristian.damian\Projects\ValidarEfos\ValidarEfos\Core\Read\obj\Debug\netstandard2.0\Read.pdb

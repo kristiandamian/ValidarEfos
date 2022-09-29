@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "WVunW00yk8Rw7J/wwx80c5I1dU6DiXlKxuZe67gHmATCdLsq1ATlyvdthjIGzYYzPq3hZdb7PF24frYEH06IMQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kristian.damian\\Projects\\ValidarEfos\\ValidarEfos\\Models\\Models\\Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kristian.damian\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\kristian.damian\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

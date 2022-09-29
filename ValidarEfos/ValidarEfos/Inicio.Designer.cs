@@ -32,9 +32,11 @@
             this.lnkArchivoCsv = new System.Windows.Forms.LinkLabel();
             this.label2 = new System.Windows.Forms.Label();
             this.lnkCarpetaXML = new System.Windows.Forms.LinkLabel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.efoFile = new System.Windows.Forms.Label();
+            this.xmlFolderLabel = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.openEfoFileDialog = new System.Windows.Forms.OpenFileDialog();
+            this.openXmlFolderDialog = new System.Windows.Forms.OpenFileDialog();
             this.SuspendLayout();
             // 
             // label1
@@ -58,6 +60,7 @@
             this.lnkArchivoCsv.TabIndex = 1;
             this.lnkArchivoCsv.TabStop = true;
             this.lnkArchivoCsv.Text = "Selecciona el archivo de Efos (CSV)";
+            this.lnkArchivoCsv.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkArchivoCsv_LinkClicked);
             // 
             // label2
             // 
@@ -80,24 +83,25 @@
             this.lnkCarpetaXML.TabIndex = 3;
             this.lnkCarpetaXML.TabStop = true;
             this.lnkCarpetaXML.Text = "Selecciona la carpeta donde estan los XML";
+            this.lnkCarpetaXML.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkCarpetaXML_LinkClicked);
             // 
-            // label3
+            // efoFile
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(64, 59);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(151, 13);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "No ha seleccionado el archivo";
+            this.efoFile.AutoSize = true;
+            this.efoFile.Location = new System.Drawing.Point(64, 59);
+            this.efoFile.Name = "efoFile";
+            this.efoFile.Size = new System.Drawing.Size(151, 13);
+            this.efoFile.TabIndex = 4;
+            this.efoFile.Text = "No ha seleccionado el archivo";
             // 
-            // label4
+            // xmlFolderLabel
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(67, 176);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(152, 13);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "No ha seleccionado la carpeta";
+            this.xmlFolderLabel.AutoSize = true;
+            this.xmlFolderLabel.Location = new System.Drawing.Point(67, 176);
+            this.xmlFolderLabel.Name = "xmlFolderLabel";
+            this.xmlFolderLabel.Size = new System.Drawing.Size(152, 13);
+            this.xmlFolderLabel.TabIndex = 5;
+            this.xmlFolderLabel.Text = "No ha seleccionado la carpeta";
             // 
             // button1
             // 
@@ -107,6 +111,15 @@
             this.button1.TabIndex = 6;
             this.button1.Text = "Iniciar validación";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // openEfoFileDialog
+            // 
+            this.openEfoFileDialog.FileName = "openFileDialog1";
+            // 
+            // openXmlFolderDialog
+            // 
+            this.openXmlFolderDialog.FileName = "openFileDialog1";
             // 
             // Inicio
             // 
@@ -114,8 +127,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 345);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.xmlFolderLabel);
+            this.Controls.Add(this.efoFile);
             this.Controls.Add(this.lnkCarpetaXML);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lnkArchivoCsv);
@@ -133,9 +146,11 @@
         private System.Windows.Forms.LinkLabel lnkArchivoCsv;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.LinkLabel lnkCarpetaXML;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label efoFile;
+        private System.Windows.Forms.Label xmlFolderLabel;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.OpenFileDialog openEfoFileDialog;
+        private System.Windows.Forms.OpenFileDialog openXmlFolderDialog;
     }
 }
 
