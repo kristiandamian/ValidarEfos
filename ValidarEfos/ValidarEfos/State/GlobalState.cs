@@ -9,6 +9,7 @@ namespace ValidarEfos.State
         public static List<Efo> Efos { get; set; }
         public static string folderXml { get; set; }
         public static List<string> Xmls { get; set; }
+        public static List<Factura> FacturaEnEfos { get; set; }
 
     }
 }

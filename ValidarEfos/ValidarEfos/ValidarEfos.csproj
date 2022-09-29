@@ -71,12 +71,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CSV\paso-01-seleccionar-archivo.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CSV\paso-01-seleccionar-archivo.Designer.cs">
-      <DependentUpon>paso-01-seleccionar-archivo.cs</DependentUpon>
-    </Compile>
     <Compile Include="State\GlobalState.cs" />
     <Compile Include="Inicio.cs">
       <SubType>Form</SubType>
@@ -86,9 +80,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="CSV\paso-01-seleccionar-archivo.resx">
-      <DependentUpon>paso-01-seleccionar-archivo.cs</DependentUpon>
-    </EmbeddedResource>
+    <Compile Include="Validacion\Validacion.cs" />
     <EmbeddedResource Include="Inicio.resx">
       <DependentUpon>Inicio.cs</DependentUpon>
     </EmbeddedResource>
@@ -120,6 +112,10 @@
     <ProjectReference Include="..\Core\Read\Read.csproj">
       <Project>{45da4ab1-8534-4d3f-95b6-c8ee56abab12}</Project>
       <Name>Read</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Core\Write\Write.csproj">
+      <Project>{b0c4a2c1-82bf-421b-944b-c5b0234ea40b}</Project>
+      <Name>Write</Name>
     </ProjectReference>
     <ProjectReference Include="..\Models\Models\Models.csproj">
       <Project>{e2b689ee-02e1-4601-b6d8-aeb9e62eeece}</Project>

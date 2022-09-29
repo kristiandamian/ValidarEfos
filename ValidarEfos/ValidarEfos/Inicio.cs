@@ -77,7 +77,7 @@ namespace ValidarEfos
                         State.GlobalState.folderXml = folderPath;
                         State.GlobalState.Xmls = GetXmls(folderPath);
                         
-                        xmlFolderLabel.Text = $"{folderPath} -> hay {State.GlobalState.Xmls} archivos XML";
+                        xmlFolderLabel.Text = $"{folderPath} -> hay {State.GlobalState.Xmls.Count} archivos XML";
                     }
                     catch (SecurityException ex)
                     {
@@ -103,7 +103,29 @@ namespace ValidarEfos
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            var csvSelected = !string.IsNullOrEmpty(State.GlobalState.cvsFileName);
+            var xmlSelected = State.GlobalState.Xmls != null && State.GlobalState.Xmls.Count > 0;
+            if(csvSelected && xmlSelected)
+            { 
+                button1.Enabled = false;
+                Validacion.Iniciar();
+
+                if(State.GlobalState.FacturaEnEfos.Count == 0)
+                    MessageBox.Show("No se encontraron facturas en los Efos");
+                else
+                {
+                    var resultName = new Write.CSV(State.GlobalState.FacturaEnEfos).resultsFile;
+                    MessageBox.Show($"Se encontraron {State.GlobalState.FacturaEnEfos.Count} facturas en los Efos, estan en el archivo {resultName}");
+
+                    System.Diagnostics.Process.Start (Write.CSV.basicPath);
+                }
+
+                button1.Enabled = true;
+            }
+            else
+                MessageBox.Show("Selecciona el archivo de los Efos y la carpeta donde estan los XML");
+
+
         }
     }
 }

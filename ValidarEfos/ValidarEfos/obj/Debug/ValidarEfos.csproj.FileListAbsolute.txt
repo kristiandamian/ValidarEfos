@@ -7,7 +7,6 @@ C:\Users\kristian.damian\Projects\ValidarEfos\ValidarEfos\ValidarEfos\bin\Debug\
 C:\Users\kristian.damian\Projects\ValidarEfos\ValidarEfos\ValidarEfos\bin\Debug\Models.pdb
 C:\Users\kristian.damian\Projects\ValidarEfos\ValidarEfos\ValidarEfos\obj\Debug\ValidarEfos.csproj.AssemblyReference.cache
 C:\Users\kristian.damian\Projects\ValidarEfos\ValidarEfos\ValidarEfos\obj\Debug\ValidarEfos.csproj.SuggestedBindingRedirects.cache
-C:\Users\kristian.damian\Projects\ValidarEfos\ValidarEfos\ValidarEfos\obj\Debug\ValidarEfos.CSV.paso_01_seleccionar_archivo.resources
 C:\Users\kristian.damian\Projects\ValidarEfos\ValidarEfos\ValidarEfos\obj\Debug\ValidarEfos.Inicio.resources
 C:\Users\kristian.damian\Projects\ValidarEfos\ValidarEfos\ValidarEfos\obj\Debug\ValidarEfos.Properties.Resources.resources
 C:\Users\kristian.damian\Projects\ValidarEfos\ValidarEfos\ValidarEfos\obj\Debug\ValidarEfos.csproj.GenerateResource.cache
@@ -31,3 +30,5 @@ C:\Users\kristian.damian\Projects\ValidarEfos\ValidarEfos\ValidarEfos\bin\Debug\
 C:\Users\kristian.damian\Projects\ValidarEfos\ValidarEfos\ValidarEfos\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\kristian.damian\Projects\ValidarEfos\ValidarEfos\ValidarEfos\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\kristian.damian\Projects\ValidarEfos\ValidarEfos\ValidarEfos\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\kristian.damian\Projects\ValidarEfos\ValidarEfos\ValidarEfos\bin\Debug\Write.dll
+C:\Users\kristian.damian\Projects\ValidarEfos\ValidarEfos\ValidarEfos\bin\Debug\Write.pdb
