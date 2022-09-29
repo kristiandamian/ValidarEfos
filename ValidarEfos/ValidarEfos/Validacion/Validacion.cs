@@ -4,11 +4,14 @@ using System.Linq;
 
 namespace ValidarEfos
 {
+
     public class Validacion
     {
-        public static event Action<int>XmlValidado = delegate { };
+        public static event EventHandler XmlValidado;
+
         public static void Iniciar()
         {
+            EventHandler handler = XmlValidado;
             State.GlobalState.FacturaEnEfos = new List<Models.Factura>();
             var step = 0;
             foreach(var xml in State.GlobalState.Xmls)
@@ -20,7 +23,7 @@ namespace ValidarEfos
 
                 step++;
 
-                XmlValidado(step);
+                handler?.Invoke(null, null);
             }
         }
 

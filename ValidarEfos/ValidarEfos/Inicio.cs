@@ -5,6 +5,7 @@ using System.IO;
 using System.Security;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using Models;
 
 namespace ValidarEfos
 {
@@ -111,9 +112,9 @@ namespace ValidarEfos
                 button1.Enabled = false;
                 InicioProgressBar();
 
-                Validacion.Iniciar();
-
                 Validacion.XmlValidado += Validacion_XmlValidado;
+
+                Validacion.Iniciar();
 
                 OcultoProgressBar();
                 if(State.GlobalState.FacturaEnEfos.Count == 0)
@@ -126,6 +127,7 @@ namespace ValidarEfos
                     System.Diagnostics.Process.Start (Write.CSV.basicPath);
                 }
 
+                Validacion.XmlValidado -= Validacion_XmlValidado;
                 button1.Enabled = true;
             }
             else
@@ -134,9 +136,9 @@ namespace ValidarEfos
 
         }
 
-        private void Validacion_XmlValidado(int factura)
+        private void Validacion_XmlValidado(object sender, EventArgs e)
         {
-            progressBar1.Value = factura;
+            progressBar1.Value = progressBar1.Value++;
         }
         void OcultoProgressBar() => progressBar1.Visible = false;
 
