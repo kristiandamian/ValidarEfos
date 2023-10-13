@@ -1,11 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "WVunW00yk8Rw7J/wwx80c5I1dU6DiXlKxuZe67gHmATCdLsq1ATlyvdthjIGzYYzPq3hZdb7PF24frYEH06IMQ==",
+  "dgSpecHash": "wVAA/6wZ1jp/UVXwfuRBQtChNC1weskOWedl+lWVMzBbk969w6AkuPFsDB/EjL9lcKCQp7N/WJlZQ8BMaz+Q0A==",
   "success": true,
   "projectFilePath": "C:\\Users\\kristian.damian\\Projects\\ValidarEfos\\ValidarEfos\\Models\\Models\\Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kristian.damian\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\kristian.damian\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://nuget.themxgroup.com:8080/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
 }
